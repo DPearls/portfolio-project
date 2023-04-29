@@ -25,10 +25,53 @@
   font-size: 20px;
   line-height: 2;
 }
-.btn-branding {
+.btn-head {
   background-color: var(--secondary-color);
   border-radius: 4px;
   color: white;
   padding: 15px 30px;
   line-height: 30px;
+}
+.btn-body {
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  color: white;
+  padding: 15px 30px;
+  line-height: 30px;
+}
+h2 {
+  font-size: 65px;
+}
+p {
+  font-size: 18px;
+}
+.project-description {
+  padding: 0 30px;
+}
+.img-fluid {
+  border-radius: 5px;
+  padding: 0 100px;
+}
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 30px;
+  }
+  .hero p {
+    font-size: 20px;
+  }
+  .hero h2 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .project-description {
+    text-align: center;
+    font-size: 14px;
+    padding: 0;
+  }
 }

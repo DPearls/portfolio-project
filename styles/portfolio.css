@@ -53,6 +53,9 @@ p {
   padding: 0 100px;
 }
 @media (max-width: 768px) {
+  .hero {
+    padding: 60px 10px;
+  }
   .hero h1 {
     font-size: 30px;
   }
@@ -73,5 +76,8 @@ p {
     text-align: center;
     font-size: 14px;
     padding: 0;
+  }
+  .btn-head {
+    padding: 8px 15px;
   }
 }

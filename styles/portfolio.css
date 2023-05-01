@@ -25,6 +25,9 @@
   font-size: 20px;
   line-height: 2;
 }
+.hero h3 {
+  font-size: 20px;
+}
 .btn-head {
   background-color: var(--secondary-color);
   border-radius: 4px;

@@ -28,6 +28,33 @@
 .hero h3 {
   font-size: 20px;
 }
+.about-page h1 {
+  font-size: 30px;
+}
+.about-page {
+  background-color: var(--primary-color);
+  padding: 100px 20px;
+}
+.about-page img {
+  margin: 50px;
+}
+.about-page-content {
+  margin: 30px;
+}
+.about-page h2 {
+  font-family: var(--secondary-font);
+  font-size: 16px;
+}
+.about-page p {
+  font-size: 14px;
+}
+.btn-page {
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  color: white;
+  padding: 15px 30px;
+  line-height: 30px;
+}
 .btn-head {
   background-color: var(--secondary-color);
   border-radius: 4px;
@@ -80,7 +107,31 @@ p {
     font-size: 14px;
     padding: 0;
   }
+  .about-page {
+    text-align: center;
+    padding: 0;
+  }
   .btn-head {
     padding: 8px 15px;
+  }
+  .btn-head {
+    padding: 8px 15px;
+  }
+  .btn-page {
+    padding: 8px 15px;
+    display: block;
+    margin: 0 auto;
+  }
+  .about-page img {
+    margin: 10px;
+  }
+  .about-page h1 {
+    font-size: 20px;
+  }
+  .about-page h2 {
+    font-size: 12px;
+  }
+  .about-page p {
+    font-size: 10px;
   }
 }

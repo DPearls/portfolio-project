@@ -105,16 +105,30 @@ p {
   padding: 0 100px;
 }
 .logo {
-  max-width: 100px;
+  max-width: 80px;
 }
-nav item {
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
   color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
 }
-.active {
-  color: var(--primary-color) !important;
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
 }
-.active:hover {
-  color: var(--secondary-color) !important;
+nav li.active a:hover {
+  color: var(--secondary-color);
 }
 footer {
   background-color: var(--secondary-color);

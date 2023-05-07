@@ -28,24 +28,35 @@
 .hero h3 {
   font-size: 20px;
 }
-.about-page h1 {
+.page-content h1 {
   font-size: 30px;
+  color: var(--secondary-color);
 }
-.about-page {
+.page-container {
   background-color: var(--primary-color);
+  color: var(--secondary-color);
   padding: 100px 20px;
 }
-.about-page img {
+.page-container img {
   margin: 50px;
 }
-.about-page-content {
+.page-content {
   margin: 30px;
 }
-.about-page h2 {
+.page-content h2 {
   font-family: var(--secondary-font);
   font-size: 16px;
 }
-.about-page p {
+.page-content h3 {
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+  font-size: 14px;
+}
+.page-content p {
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+.page-container p {
   font-size: 14px;
 }
 .btn-page {
@@ -107,7 +118,7 @@ p {
     font-size: 14px;
     padding: 0;
   }
-  .about-page {
+  .page-content {
     text-align: center;
     padding: 0;
   }
@@ -122,16 +133,16 @@ p {
     display: block;
     margin: 0 auto;
   }
-  .about-page img {
+  .page-container img {
     margin: 10px;
   }
-  .about-page h1 {
+  .page-container h1 {
     font-size: 20px;
   }
-  .about-page h2 {
+  .page-container h2 {
     font-size: 12px;
   }
-  .about-page p {
+  .page-container p {
     font-size: 10px;
   }
 }

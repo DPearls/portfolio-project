@@ -96,7 +96,37 @@ h4 {
 .about-page h4 {
   color: var(--secondary-color);
 }
-
+.heading h1 {
+  padding: 100px 0;
+  font-family: var(--primary-font);
+  font-size: 40px;
+  text-align: center;
+}
+.divide {
+  width: 80%;
+  margin: 0 auto;
+  color: var(--secondary-color);
+  border-bottom: 3px solid var(--secondary-color);
+}
+.work-hero h2 {
+  font-size: 35px;
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+}
+.work-hero p {
+  font-family: var(--primary-font);
+  font-size: 22px;
+  color: var(--secondary-color);
+}
+.strong {
+  color: var(--primary-color);
+}
+.work-hero img {
+  max-width: 80%;
+}
+.weather-img {
+  max-width: 100%;
+}
 .skills-logo {
   max-width: 30%;
 }

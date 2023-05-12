@@ -26,13 +26,51 @@ nav {
 }
 .hero {
   text-align: center;
-  padding: 100px 0;
+  padding: 200px 0;
 }
 .hero img {
   max-width: 70%;
+  border-radius: 4px;
 }
 .page-content {
-  padding: 160px 0;
+  padding: 0 20px;
+}
+.about-page {
+  padding: 100px 0;
+  margin: 40px;
+}
+.about-page img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.about-page h1 {
+  font-family: var(--secondary-font);
+  font-size: 32px;
+}
+.about-page h3 {
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: normal;
+}
+.about-page p {
+  font-size: 20px;
+  color: var(--secondary-color);
+  font-size: 18px;
+  margin-right: 50px;
+}
+.about-page a {
+  text-decoration: none;
+}
+.btn-page {
+  background: var(--secondary-color);
+  color: white;
+  font-family: var(--primary-font);
+  font-size: 20px;
+  padding: 20px 25px;
+  margin-left: 0 20px;
+}
+.my-site {
+  color: var(--primary-color);
 }
 h1 {
   color: var(--secondary-color);
@@ -54,6 +92,21 @@ h4 {
   color: white;
   font-family: var(--primary-font);
   font-size: 16px;
+}
+.about-page h4 {
+  color: var(--secondary-color);
+}
+
+.skills-logo {
+  max-width: 30%;
+}
+.skills-logo-2 {
+  max-width: 100%;
+}
+.skills {
+  color: var(--secondary-color);
+  font-family: var(--primary-font);
+  font-size: 25px;
 }
 .info div {
   margin: 0 20px;
@@ -148,6 +201,13 @@ footer .social-links a:hover {
   transition: all 0.2s ease-in-out;
 }
 @media (max-width: 768px) {
+  .header-1,
+  .header-2,
+  .header-3,
+  .header-4,
+  .header-5 {
+    text-align: center;
+  }
   .hero {
     padding: 50px 5px;
     margin-bottom: 20px;

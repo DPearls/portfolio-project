@@ -155,19 +155,33 @@ nav {
 .work-hero img {
   max-width: 80%;
 }
-.contact-hero h1 {
-  color: var(--secondary-color);
+.contact-page h1 {
   font-family: var(--primary-font);
-  font-size: 30px;
+  color: var(--secondary-color);
+  padding: 40px 0;
+  font-size: 35px;
+  text-align: center;
 }
-.contact-hero h3 {
+.contact-page h3 {
   font-family: var(--primary-font);
   color: var(--secondary-color);
   font-size: 20px;
 }
-.contact-info {
-  text-align: center;
+.contact-page a {
   text-decoration: none;
+  font-family: var(--primary-font);
+  font-size: 16px;
+  color: var(--primary-color);
+  margin-bottom: 4px;
+}
+.contact-det {
+  text-align: center;
+}
+.contact-det .fa-brands {
+  color: var(--primary-color);
+  padding: 5px 2px;
+  font-size: 25px;
+  transition: all 100ms ease-in-out;
 }
 .icons {
   color: var(--primary-color);
@@ -194,12 +208,7 @@ nav {
 .weather-img {
   max-width: 100%;
 }
-.contact-page h1 {
-  font-family: var(--primary-font);
-  padding: 120px 0;
-  font-size: 35px;
-  text-align: center;
-}
+
 .skills-section {
   margin-top: 70px;
   margin-bottom: 30px;
@@ -266,7 +275,7 @@ nav {
 .fa-solid {
   color: var(--primary-color);
   font-weight: bold;
-  padding: 20px 10px;
+  padding: 5px 2px;
   font-size: 25px;
   transition: all 100ms ease-in-out;
 }

@@ -131,6 +131,10 @@ nav {
   padding: 20px 25px;
   margin-left: 0 20px;
 }
+.btn-page:hover {
+  background: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
 .heading h1 {
   padding: 100px 0;
   color: var(--secondary-color);
@@ -196,11 +200,18 @@ nav {
   font-size: 35px;
   text-align: center;
 }
-.skills-logo {
-  max-width: 30%;
+.skills-section {
+  margin-top: 70px;
+  margin-bottom: 30px;
 }
-.skills-logo-2 {
-  max-width: 100%;
+.skills-section img {
+  max-width: 50%;
+  text-align: center;
+}
+.skill {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 15px;
 }
 .skills {
   color: var(--secondary-color);
@@ -230,6 +241,12 @@ nav {
   border-radius: 4px;
   color: white;
   padding: 20px 25px;
+}
+.btn-contact:hover {
+  background: var(--secondary-color);
+}
+.btn-about:hover {
+  background: var(--primary-color);
 }
 
 .more-projects {
@@ -337,12 +354,19 @@ footer p {
     text-align: justify;
     padding-right: 10px 10px;
   }
-  .about-img {
-    padding: 0;
+  .about-page img {
+    padding-top: 3px;
   }
   .heading h1 {
     padding: 70px 0;
     font-size: 20px;
+  }
+  .skill {
+    justify-content: center;
+    margin: 5px 8px;
+  }
+  .work {
+    padding-top: 3px;
   }
   .work-hero {
     text-align: center;

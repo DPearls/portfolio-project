@@ -122,17 +122,22 @@ nav {
   background: var(--secondary-color);
   transition: all 100ms ease-in-out;
 }
-.heading h1 {
+.work-hero h1 {
   padding: 100px 0;
   color: var(--secondary-color);
   font-family: var(--primary-font);
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
 }
 .work-hero h2 {
-  font-size: 35px;
+  font-size: 25px;
   font-family: var(--primary-font);
   color: var(--secondary-color);
+  font-weight: bold;
+  padding: 20px 5px;
+}
+.work-hero .strong {
+  color: var(--primary-color);
 }
 .work-page .desc {
   font-family: var(--primary-font);
@@ -186,7 +191,7 @@ nav {
 }
 
 .divide {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   color: var(--secondary-color);
   border-bottom: 3px solid var(--secondary-color);
@@ -344,6 +349,7 @@ footer p {
   .about-hero h1 {
     font-size: 26px;
   }
+
   .about-hero h3 {
     font-size: 16px;
   }
@@ -381,6 +387,9 @@ footer p {
   }
   .work-page .desc {
     font-size: 16px;
+  }
+  .weather-app-img {
+    margin-bottom: 40px;
   }
   .contact-det {
     color: var(--primary-color);

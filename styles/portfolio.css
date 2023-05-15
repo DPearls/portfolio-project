@@ -104,6 +104,9 @@ nav {
   font-size: 16px;
   margin-right: 50px;
 }
+.about-page {
+  margin-bottom: 10px;
+}
 .about-page a {
   text-decoration: none;
 }
@@ -189,27 +192,28 @@ nav {
   border-bottom: 3px solid var(--secondary-color);
 }
 
-.weather-img {
-  max-width: 100%;
+.about-hero h4 {
+  color: var(--primary-color);
 }
-
 .skills-section {
-  margin-top: 70px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 .skills-section img {
+  width: 100px;
+  height: 50px;
   max-width: 50%;
-  text-align: center;
 }
 .skill {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 10px 15px;
-}
-.skills {
   color: var(--secondary-color);
   font-family: var(--primary-font);
   font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  margin: 4px 4px;
+}
+.skills-head {
+  text-align: center;
 }
 .info div {
   margin: 0 20px;
@@ -324,6 +328,10 @@ footer p {
   .about-img {
     text-align: center;
   }
+  .about-hero img {
+    padding: 60px 0;
+    max-width: 50%;
+  }
   .page {
     margin-bottom: 20px;
   }
@@ -350,9 +358,17 @@ footer p {
     padding: 70px 0;
     font-size: 20px;
   }
+  .skills-section img {
+    width: 50px;
+    height: 20px;
+    max-width: 25%;
+  }
   .skill {
-    justify-content: center;
-    margin: 5px 8px;
+    font-size: 12px;
+    display: flex;
+  }
+  .skills {
+    font-size: 12px;
   }
   .work {
     padding-top: 3px;

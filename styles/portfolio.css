@@ -61,7 +61,7 @@ nav {
 .line {
   color: var(--secondary-color);
   width: 100%;
-  border-bottom: 3px solid var(--secondary-color);
+  border-bottom: 5px solid var(--secondary-color);
 }
 .page-content {
   padding: 120px 0;
@@ -196,7 +196,6 @@ nav {
   color: var(--secondary-color);
   border-bottom: 3px solid var(--secondary-color);
 }
-
 .about-hero h4 {
   color: var(--primary-color);
 }
@@ -355,7 +354,7 @@ footer p {
   }
   .about-hero p {
     text-align: justify;
-    padding-right: 10px 10px;
+    margin: 0 auto;
   }
   .about-page img {
     padding-top: 3px;
